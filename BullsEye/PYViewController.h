@@ -10,4 +10,6 @@
 
 @interface PYViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
