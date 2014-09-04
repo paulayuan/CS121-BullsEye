@@ -13,6 +13,9 @@
 @end
 
 @implementation PYViewController
+{
+    int _currentValue;
+}
 
 - (void)viewDidLoad
 {
@@ -28,13 +31,21 @@
 
 - (IBAction)showAlert
 {
+    NSString *message = [NSString stringWithFormat:
+                         @"The value of the slider is: %d", _currentValue];
+    
     UIAlertView *alertView = [[UIAlertView alloc]
-                              initWithTitle:@"Hello,World"
-                              message:@"This is my first app!"
+                              initWithTitle:@"Hello, World"
+                              message:message
                               delegate:nil
-                              cancelButtonTitle:@"Awesome"
+                              cancelButtonTitle:@"OK"
                               otherButtonTitles:nil];
     [alertView show];
+}
+
+- (IBAction)sliderMoved:(UISlider *)slider
+{
+    _currentValue = lroundf(slider.value);
 }
 
 @end
