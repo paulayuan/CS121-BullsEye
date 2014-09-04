@@ -1,0 +1,8 @@
+
+Software Development Failure:
+
+In 2012, California set out to modernize case management for the court system. The already-distributed software worked, but the state did not have enough money to keep it going, and it does not handle all cases like the newer version does. Due to the state's unfortunate financial situation, the project had to be abandoned. The underlying problem of this software development failure was poor planning and estimation of costs.
+
+Rules of Sudoku:
+
+You have a 9x9 grid with 9 3x3 grids within it. The goal is to fill up the grids such that no numbers are repeated in each 3x3 grid, row, or column.
