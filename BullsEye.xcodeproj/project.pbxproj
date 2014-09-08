@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C14088A19BE6F7D005BD613 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C14088919BE6F7D005BD613 /* AboutViewController.m */; };
 		8C18864219B7DEB70070C91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C18864119B7DEB70070C91A /* Foundation.framework */; };
 		8C18864419B7DEB70070C91A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C18864319B7DEB70070C91A /* CoreGraphics.framework */; };
 		8C18864619B7DEB70070C91A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C18864519B7DEB70070C91A /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C14088819BE6F7D005BD613 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		8C14088919BE6F7D005BD613 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		8C18863E19B7DEB70070C91A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C18864119B7DEB70070C91A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C18864319B7DEB70070C91A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 				8C18865119B7DEB80070C91A /* PYAppDelegate.m */,
 				8C18865319B7DEB80070C91A /* Main.storyboard */,
 				8C18865619B7DEB80070C91A /* PYViewController.h */,
+				8C14088819BE6F7D005BD613 /* AboutViewController.h */,
+				8C14088919BE6F7D005BD613 /* AboutViewController.m */,
 				8C18865719B7DEB80070C91A /* PYViewController.m */,
 				8C18865919B7DEB80070C91A /* Images.xcassets */,
 				8C18864819B7DEB80070C91A /* Supporting Files */,
@@ -252,6 +257,7 @@
 			files = (
 				8C18865819B7DEB80070C91A /* PYViewController.m in Sources */,
 				8C18864E19B7DEB80070C91A /* main.m in Sources */,
+				8C14088A19BE6F7D005BD613 /* AboutViewController.m in Sources */,
 				8C18865219B7DEB80070C91A /* PYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

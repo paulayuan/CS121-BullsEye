@@ -20,7 +20,3 @@
 - (IBAction)sliderMoved:(UISlider *)slider;
 
 @end
-
-
-// Commit message:
-// Added titles to alert, added bonus points, made game start over after alert was dismissed, made start over button work (or at least I think since quota was exceeded before I could test that)
