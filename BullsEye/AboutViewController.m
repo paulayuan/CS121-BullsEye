@@ -23,10 +23,13 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSString *htmlFile = [[NSBundle mainBundle]
+                          pathForResource:@"BullsEye" ofType:@"html"]; NSData *htmlData = [NSData dataWithContentsOfFile:htmlFile];
+    NSURL *baseURL = [NSURL fileURLWithPath:[
+                                             [NSBundle mainBundle] bundlePath]];
+    [self.webView loadData:htmlData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:baseURL];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,5 +53,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (BOOL)prefersStatusBarHidden {
+    return YES; }
 
 @end
